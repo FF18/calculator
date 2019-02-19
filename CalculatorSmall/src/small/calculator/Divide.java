@@ -17,7 +17,7 @@ public class Divide extends Calculator implements calcprint {
 	}
 
 	@Override
-	public int getType() {
+	public String getType() {
 		return getType();
 	}
 	

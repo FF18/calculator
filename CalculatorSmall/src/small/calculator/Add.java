@@ -4,7 +4,7 @@ package small.calculator;
 public class Add extends Calculator implements calcprint {
 
 	@Override
-	public int getType() {
+	public String getType() {
 		return getType();
 	}
 	

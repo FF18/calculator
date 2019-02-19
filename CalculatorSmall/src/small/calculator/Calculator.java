@@ -1,6 +1,6 @@
 package small.calculator;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Calculator extends Execute {
 	private int num1=0;
@@ -8,9 +8,9 @@ public class Calculator extends Execute {
 	public int a; // last number
 	private Calculator execute;
 	
-//	public Scanner scan = new Scanner(System.in); {
-//		num2 = scan.nextInt();
-//	}
+	public Scanner scan = new Scanner(System.in); {
+		num2 = scan.nextInt();
+	}
 
 	
 	public void setNum1(int num1) {
@@ -24,8 +24,8 @@ public class Calculator extends Execute {
 	public void setNum2(int num2) {
 		this.num2 = num2;
 	}
-	public void getNum2() {
-		return;
+	public int getNum2() {
+		return getNum2();
 	}
 
 	public void performOperation(int num1, int num2) {

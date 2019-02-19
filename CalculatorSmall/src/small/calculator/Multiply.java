@@ -3,7 +3,7 @@ package small.calculator;
 public class Multiply extends Calculator implements calcprint {
 
 	@Override
-	public int getType() {
+	public String getType() {
 		return getType();
 	}
 

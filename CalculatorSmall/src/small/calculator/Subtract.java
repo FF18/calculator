@@ -5,7 +5,7 @@ package small.calculator;
 public class Subtract extends Calculator implements calcprint {
 
 	@Override
-	public int getType() {
+	public String getType() {
 		return getType();
 	}
 	
